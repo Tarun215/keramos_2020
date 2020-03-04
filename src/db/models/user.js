@@ -9,6 +9,11 @@ const userSchema = mongoose.Schema({
         required : true,
         trim : true
     },
+    college_name :   { 
+        type : String,
+        required : true,
+        trim : true
+    },
     email : {
         type : String,
         required : true,
