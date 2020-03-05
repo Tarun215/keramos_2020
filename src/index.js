@@ -26,6 +26,7 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
+// Route to gallery page
 app.get('/gallery', (req, res) => {
     res.render('gallery')
 })
